@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "./node_modules/.bin/nodemon ."
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,16 @@
     "express": "^4.17.1",
     "morgan": "^1.9.1",
     "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "nodemon": "^2.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "webpack": "^4.41.4",
+    "webpack-dev-middleware": "^3.7.2"
   }
 }
